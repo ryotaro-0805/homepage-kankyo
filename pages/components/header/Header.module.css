@@ -2,15 +2,16 @@
     width: 100vw;
     background-color:#333;
     color: #fff;
-    text-align: center;
     display: flex;
     align-items: center;
 }
 
-/* .header_wrapper>div{
-    width: 80%;
-} */
-
+.header_inner{
+    width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
 
 
 .header_wrapper h1{
@@ -21,13 +22,14 @@
 }
 
 .header_menu_div{
-    width: 50%;
+    width: 65vw;
     margin-right: 100px;
     text-align: right;
 }
 
 .header_menu_div_hamberger{
-    width:50%;
+    background-color: #fff;
+    width:auto;
     margin-right: 50px;
     text-align: right;
     display: none;
@@ -38,7 +40,7 @@
     color: #fff;
 }
 
-@media screen and (max-width:1200px){   
+@media screen and (max-width:1000px){   
     .header_menu_div{
       display: none;
     }
